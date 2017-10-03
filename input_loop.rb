@@ -1,9 +1,7 @@
-print "ingresa un número"
-num = gets.chomp.to_i
+850.times do
+  puts "hola mundo"
+end
 
-while num < 10
-  puts "el número es menor a 10"
-
-print "ingresa un número"
-num = gets.chomp.to_i
+820.times do |i|
+  puts "#{i}hola mundo"
 end
