@@ -1,3 +1,4 @@
-(17..27).each do |i|
+(1...10).each do |i|
+
   puts "#{i}hola mundo"
 end
