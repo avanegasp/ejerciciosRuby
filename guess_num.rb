@@ -12,10 +12,23 @@
 
 print "Ingresa un número: "
 num = gets.chomp.to_i
-while num === 10
-  puts "El número es igual a 10"
+
+while num != 8
+
+  puts "El número no es el correcto"
 
   print "Ingresa un número: "
   num = gets.chomp.to_i
-  puts "El número no es el correcto "
+
 end
+
+puts "El número es igual a 8"
+
+
+# print "Ingresa un número: "
+# num = gets.chomp.to_i
+# if num === 10
+#   puts "El número es igual a 10"
+# else
+#     puts "El número no es el correcto "
+# end
